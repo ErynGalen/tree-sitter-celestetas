@@ -1,0 +1,306 @@
+[
+  {
+    "type": "action_input",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "action_line",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "action_input",
+          "named": true
+        },
+        {
+          "type": "analog_argument",
+          "named": true
+        },
+        {
+          "type": "analog_input",
+          "named": true
+        },
+        {
+          "type": "custom_input",
+          "named": true
+        },
+        {
+          "type": "directional_input",
+          "named": true
+        },
+        {
+          "type": "frame_count",
+          "named": true
+        },
+        {
+          "type": "input_separator",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "analog_argument",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "breakpoint",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "command",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "command_part",
+          "named": true
+        },
+        {
+          "type": "command_separator",
+          "named": true
+        },
+        {
+          "type": "command_word",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "command_part",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "command_separator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "directional_input",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "frame_count",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "input_separator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "number",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "action_line",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "special_line",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "special_line",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "breakpoint",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "\n",
+    "named": false
+  },
+  {
+    "type": "\r\n",
+    "named": false
+  },
+  {
+    "type": "#",
+    "named": false
+  },
+  {
+    "type": "***",
+    "named": false
+  },
+  {
+    "type": "***S",
+    "named": false
+  },
+  {
+    "type": "***s",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "AD",
+    "named": false
+  },
+  {
+    "type": "AL",
+    "named": false
+  },
+  {
+    "type": "AR",
+    "named": false
+  },
+  {
+    "type": "AU",
+    "named": false
+  },
+  {
+    "type": "C",
+    "named": false
+  },
+  {
+    "type": "D",
+    "named": false
+  },
+  {
+    "type": "G",
+    "named": false
+  },
+  {
+    "type": "H",
+    "named": false
+  },
+  {
+    "type": "J",
+    "named": false
+  },
+  {
+    "type": "K",
+    "named": false
+  },
+  {
+    "type": "L",
+    "named": false
+  },
+  {
+    "type": "MD",
+    "named": false
+  },
+  {
+    "type": "ML",
+    "named": false
+  },
+  {
+    "type": "MR",
+    "named": false
+  },
+  {
+    "type": "MU",
+    "named": false
+  },
+  {
+    "type": "N",
+    "named": false
+  },
+  {
+    "type": "O",
+    "named": false
+  },
+  {
+    "type": "Q",
+    "named": false
+  },
+  {
+    "type": "R",
+    "named": false
+  },
+  {
+    "type": "S",
+    "named": false
+  },
+  {
+    "type": "U",
+    "named": false
+  },
+  {
+    "type": "V",
+    "named": false
+  },
+  {
+    "type": "X",
+    "named": false
+  },
+  {
+    "type": "Z",
+    "named": false
+  },
+  {
+    "type": "analog_input",
+    "named": true
+  },
+  {
+    "type": "command_word",
+    "named": true
+  },
+  {
+    "type": "custom_input",
+    "named": true
+  }
+]
